@@ -124,50 +124,102 @@
             </div>
         </section>
 
-        <section class="services-marquee" id="offer">
-            <div class="marquee-header">
-                <div class="header-text">
-                    <span class="thin">Our</span>
-                    <span class="bold">Services</span>
+        <section class="expanding-services" id="offer">
+            <div class="services-header">
+                <div class="sh-left">
+
+                    <h2 class="sh-title">OUR <span>SERVICES</span></h2>
                 </div>
-                <div class="header-line"></div>
+                <div class="sh-right">
+                    <p>We provide high-end image editing solutions tailored for eCommerce, fashion, and commercial photography.</p>
+                </div>
             </div>
-            <div class="swiper services-swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="marquee-item">
-                            <h3>Landscape Photography</h3>
-                            <div class="marquee-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+            <div class="expanding-container">
+                <!-- Card 1: Background Removal -->
+                <a href="background_removal.html" class="service-card active" style="background-image: url('assets/grid_2.png'); text-decoration: none; color: inherit;">
+                    <div class="card-overlay"></div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="card-num">01</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                        <div class="card-main">
+                            <h3>BACKGROUND <br> REMOVAL</h3>
+                            <div class="card-details">
+                                <p>Professional masking and isolation for complex edges. Perfect for eCommerce product listings.</p>
+                                <ul class="card-tags">
+                                    <li>Complex Masking</li>
+                                    <li>Transparent Background</li>
+                                    <li>Product Isolation</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="marquee-item">
-                            <h3>Engagement Sessions</h3>
-                            <div class="marquee-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </a>
+
+                <!-- Card 2: Photo Retouching -->
+                <div class="service-card" style="background-image: url('assets/grid_3.png');">
+                    <div class="card-overlay"></div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="card-num">02</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                        <div class="card-main">
+                            <h3>PHOTO <br> RETOUCHING</h3>
+                            <div class="card-details">
+                                <p>High-end beauty and product retouching to enhance details and correct imperfections.</p>
+                                <ul class="card-tags">
+                                    <li>Skin Smoothing</li>
+                                    <li>Color Correction</li>
+                                    <li>Product Polishing</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="marquee-item">
-                            <h3>Architectural Photography</h3>
-                            <div class="marquee-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <!-- Card 3: Clipping Path -->
+                <div class="service-card" style="background-image: url('assets/hero_bg.png');">
+                    <div class="card-overlay"></div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="card-num">03</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                        <div class="card-main">
+                            <h3>CLIPPING <br> PATH</h3>
+                            <div class="card-details">
+                                <p>Precision hand-drawn clipping paths for the most accurate product cutouts.</p>
+                                <ul class="card-tags">
+                                    <li>Hand-Drawn Paths</li>
+                                    <li>Multi-Path</li>
+                                    <li>Image Masking</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="marquee-item">
-                            <h3>Product Photography</h3>
-                            <div class="marquee-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <!-- Card 4: Ghost Mannequin -->
+                <div class="service-card" style="background-image: url('assets/cta_bg.png');">
+                    <div class="card-overlay"></div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="card-num">04</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="marquee-item">
-                            <h3>Event Photography</h3>
-                            <div class="marquee-arrow"><i class="fa-solid fa-arrow-right"></i></div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="marquee-item">
-                            <h3>Portrait Photography</h3>
-                            <div class="marquee-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                        <div class="card-main">
+                            <h3>GHOST <br> MANNEQUIN</h3>
+                            <div class="card-details">
+                                <p>Invisible mannequin effect for apparel photography to give a 3D hollow look.</p>
+                                <ul class="card-tags">
+                                    <li>Neck Joint</li>
+                                    <li>3D Apparel Effect</li>
+                                    <li>Sleeve Joint</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -437,11 +489,11 @@
     </section>
 
     <!-- Infinite Logo Carousel Section -->
-    <section class="logo-carousel-section">
-        <!-- TOP ROW (RIGHT TO LEFT) -->
+    <!-- <section class="logo-carousel-section">
+
         <div class="lc-row">
             <div class="lc-track move-left">
-                <!-- FIRST SET -->
+
                 <div class="lc-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/GE_logo.svg"
                         alt="GE"></div>
                 <div class="lc-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/NBC_logo.svg"
@@ -459,7 +511,7 @@
                         src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
                 </div>
 
-                <!-- DUPLICATE SET FOR SEAMLESS LOOP -->
+
                 <div class="lc-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/GE_logo.svg"
                         alt="GE"></div>
                 <div class="lc-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/NBC_logo.svg"
@@ -479,10 +531,9 @@
             </div>
         </div>
 
-        <!-- BOTTOM ROW (LEFT TO RIGHT) -->
         <div class="lc-row dark-row">
             <div class="lc-track move-right">
-                <!-- FIRST SET -->
+
                 <div class="lc-slide"><img
                         src="https://upload.wikimedia.org/wikipedia/commons/5/59/Lip_Smacker_logo.png"
                         alt="Lip Smacker"></div>
@@ -501,7 +552,6 @@
                 <div class="lc-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/SpaceX-Logo.svg"
                         alt="SpaceX"></div>
 
-                <!-- DUPLICATE SET FOR SEAMLESS LOOP -->
                 <div class="lc-slide"><img
                         src="https://upload.wikimedia.org/wikipedia/commons/5/59/Lip_Smacker_logo.png"
                         alt="Lip Smacker"></div>
@@ -521,7 +571,7 @@
                         alt="SpaceX"></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Industry Expertise Section -->
     <section class="expertise-section reveal" id="expertise">
@@ -899,18 +949,13 @@
         }
         initBASliders();
 
-        // Swiper Marquee Initialization
-        const swiper = new Swiper('.services-swiper', {
-            slidesPerView: 'auto',
-            spaceBetween: 80,
-            loop: true,
-            speed: 8000,
-            allowTouchMove: false,
-            autoplay: {
-                delay: 0,
-                disableOnInteraction: false,
-            },
-            freeMode: true,
+        // Expanding Services Interaction
+        const serviceCards = document.querySelectorAll('.service-card');
+        serviceCards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                serviceCards.forEach(c => c.classList.remove('active'));
+                card.classList.add('active');
+            });
         });
 
         // Scroll Top Button Visibility
