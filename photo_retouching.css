@@ -1,4 +1,6 @@
-/* --- Background Removal Page Specific Styles --- */
+/* --- Service Page Styles (Photo Retouching) --- */
+/* Copying styles from background_removal.css to ensure identical design */
+
 .hero-bzm {
     padding: 180px 5% 100px;
     background-color: var(--bg-dark);
@@ -694,7 +696,7 @@
     line-height: 0.9;
     text-transform: uppercase;
     color: var(--primary-color);
-
+    
     margin-bottom: 10px;
 }
 
@@ -813,3 +815,4 @@
         display: none;
     }
 }
+
